@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web Technology Q&A for Sixth Semester B.Sc. (NEP Regular) Degree Examination">
+    <title>Web Technology Q&A - Exam Answers</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="header-content">
+          <b>  <h1>WEB TECHNOLOGY</h1></b>
+            <p>Sixth Semester B.Sc. (NEP Regular) Degree Examination, August/September 2024</p>
+            <button id="theme-toggle" aria-label="Toggle Dark Mode">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </header>
+    <main>
+        <!-- Section A -->
+        <section class="qa-section" id="section-a">
+            <h2>Section A <span>(2 Marks Each)</span></h2>
+            <div class="qa-pair">
+                <div class="question" role="button" tabindex="0">
+                    <span>1. Define Internet.</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="answer hidden">
+                    <p>The Internet is a global network of interconnected computers and servers that communicate using standardized protocols to share and exchange data, enabling access to information, communication, and services worldwide.</p>
+                    <p><strong>Example:</strong> Accessing <code>www.google.com</code> uses the Internet to fetch the webpage via HTTP.</p>
+                </div>
+            </div>
+            <div class="qa-pair">
+                <div class="question" role="button" tabindex="0">
+                    <span>2. What is Web Protocol? Give example.</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="answer hidden">
+                    <p>A web protocol is a set of rules for data communication over the Internet.</p>
+                    <p><strong>Example:</strong> HTTP (HyperText Transfer Protocol) is used for transferring web pages. Visiting <code>http://example.com</code> uses HTTP to fetch the page.</p>
+                </div>
+            </div>
+            <div class="qa-pair">
+                <div class="question" role="button" tabindex="0">
+                    <span>3. Which tag is used to embed an image and audio in HTML?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="answer hidden">
+                    <p>- <strong>Image:</strong> The <code>&lt;img&gt;</code> tag, e.g., <code>&lt;img src="photo.jpg" alt="A beautiful sunset"&gt;</code>.</p>
+                    <p>- <strong>Audio:</strong> The <code>&lt;audio&gt;</code> tag, e.g., <code>&lt;audio src="song.mp3" controls&gt;&lt;/audio&gt;</code>.</p>
+                </div>
+            </div>
+            <div class="qa-pair">
+                <div class="question" role="button" tabindex="0">
+                    <span>4. Define HTML Element. Give example.</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="answer hidden">
+                    <p>An HTML element consists of a start tag, content, and an end tag, defining webpage structure.</p>
+                    <p><strong>Example:</strong> <code>&lt;p class="intro"&gt;Welcome to my website!&lt;/p&gt;</code> – <code>&lt;p&gt;</code> is the start tag, <code>class="intro"</code> is an attribute, and <code>&lt;/p&gt;</code> is the end tag.</p>
+                </div>
+            </div>
+            <div class="qa-pair">
+                <div class="question" role="button" tabindex="0">
+                    <span>5. Name any two key features of XML.</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="answer hidden">
+                    <p>- <strong>Extensibility:</strong> Allows custom tags, e.g., <code>&lt;product&gt;&lt;name&gt;Laptop&lt;/name&gt;&lt;/product&gt;</code>.</p>
+                    <p>- <strong>Platform-Independence:</strong> Works across systems, e.g., an XML file can be read on both Windows and Android.</p>
+                </div>
+            </div>
+            <div class="qa-pair">
+                <div class="question" role="button" tabindex="0">
+                    <span>6. Write the Syntax of CSS.</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="answer hidden">
+                    <p>CSS syntax: <code>selector { property: value; }</code></p>
+                    <p><strong>Example:</strong> <code>h1 { color: red; font-size: 24px; }</code></p>
+                </div>
+            </div>
+            <div class="qa-pair">
+                <div class="question" role="button" tabindex="0">
+                    <span>7. Give two uses of JavaScript in Web development.</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="answer hidden">
+                    <p>- <strong>Interactivity:</strong> Enables form validation, e.g., checking if a username is empty before submission.</p>
+                    <p>- <strong>Dynamic Updates:</strong> Modifies content without reloading, e.g., updating a counter when a button is clicked.</p>
+                </div>
+            </div>
+            <div class="qa-pair">
+                <div class="question" role="button" tabindex="0">
+                    <span>8. What is the use of try ... Catch Statement in JavaScript?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="answer hidden">
+                    <p>The <code>try...catch</code> statement handles errors by executing code in the <code>try</code> block and catching errors in the <code>catch</code> block.</p>
+                    <p><strong>Example:</strong></p>
+                    <pre><code>try {
+    let result = undefinedVariable;
+} catch (error) {
+    console.log("An error occurred: " + error.message);
+}</code></pre>
+                </div>
+            </div>
+            <div class="qa-pair">
+                <div class="question" role="button" tabindex="0">
+                    <span>9. Define Event in JavaScript.</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="answer hidden">
+                    <p>An event is an action (e.g., click, keypress) that triggers a JavaScript function using event handlers like <code>onclick</code>.</p>
+                    <p><strong>Example:</strong> <code>&lt;button onclick="alert('Clicked!')"&gt;Click Me&lt;/button&gt;</code></p>
+                </div>
+            </div>
+            <div class="qa-pair">
+                <div class="question" role="button" tabindex="0">
+                    <span>10. Write the full form of DOM and give its purpose in Web Development.</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="answer hidden">
+                    <p>- <strong>DOM:</strong> Document Object Model.</p>
+                    <p>- <strong>Purpose:</strong> Represents a webpage as a tree of objects, allowing JavaScript to manipulate content dynamically.</p>
+                    <p><strong>Example:</strong> Changing text: <code>document.getElementById("text").innerText = "Hello World!";</code></p>
+                </div>
+            </div>
+            <div class="qa-pair">
+                <div class="question" role="button" tabindex="0">
+                    <span>11. What is Dynamic document in Java Script?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="answer hidden">
+                    <p>A dynamic document is a webpage that updates content, structure, or style in real-time using JavaScript and the DOM, without reloading.</p>
+                    <p><strong>Example:</strong> Updating a paragraph's text on button click.</p>
+                </div>
+            </div>
+            <div class="qa-pair">
+                <div class="question" role="button" tabindex="0">
+                    <span>12. What CSS property controls the Stacking Order of Elements?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="answer hidden">
+                    <p>The <code>z-index</code> property controls the stacking order; higher values place elements on top.</p>
+                    <p><strong>Example:</strong> <code>div { position: absolute; z-index: 10; }</code></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section B -->
+        <section class="qa-section" id="section-b">
+            <h2>Section B <span>(5 Marks Each)</span></h2>
+            <div class="qa-pair">
+                <div class="question" role="button" tabindex="0">
+                    <span>13. Explain the &lt;table&gt; tag in HTML.</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="answer hidden">
+                    <p>The <code>&lt;table&gt;</code> tag creates a table to display data in rows and columns. It uses:</p>
+                    <ul>
+                        <li><code>&lt;tr&gt;</code>: Table row.</li>
+                        <li><code>&lt;th&gt;</code>: Header cell.</li>
+                        <li><code>&lt;td&gt;</code>: Data cell.</li>
+                    </ul>
+                    <p><strong>Example:</strong></p>
+                    <pre><code>&lt;table border="1"&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Name&lt;/th&gt;
+        &lt;th&gt;Age&lt;/th&gt;
+        &lt;th&gt;City&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Alice&lt;/td&gt;
+        &lt;td&gt;22&lt;/td&gt;
+        &lt;td&gt;New York&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+                </div>
+            </div>
+            <div class="qa-pair">
+                <div class="question" role="button" tabindex="0">
+                    <span>14. Discuss the structure of a well-formed XML document.</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="answer hidden">
+                    <p>A well-formed XML document must have:</p>
+                    <ul>
+                        <li>One root element, e.g., <code>&lt;root&gt;</code>.</li>
+                        <li>Properly nested tags.</li>
+                        <li>All tags closed.</li>
+                        <li>Case-sensitive tags.</li>
+                        <li>A prolog, e.g., <code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;</code>.</li>
+                    </ul>
+                    <p><strong>Example:</strong></p>
+                    <pre><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;library&gt;
+    &lt;book&gt;
+        &lt;title&gt;Learning XML&lt;/title&gt;
+        &lt;author&gt;Jane Doe&lt;/author&gt;
+    &lt;/book&gt;
+&lt;/library&gt;</code></pre>
+                </div>
+            </div>
+            <div class="qa-pair">
+                <div class="question" role="button" tabindex="0">
+                    <span>15. Explain CSS Box model in detail.</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="answer hidden">
+                    <p>The CSS Box Model includes:</p>
+                    <ul>
+                        <li><strong>Content:</strong> Innermost part (width, height).</li>
+                        <li><strong>Padding:</strong> Space between content and border.</li>
+                        <li><strong>Border:</strong> Surrounds padding.</li>
+                        <li><strong>Margin:</strong> Outer space.</li>
+                    </ul>
+                    <p>Total size = content + padding + border + margin.</p>
+                    <p><strong>Example:</strong></p>
+                    <pre><code>div {
+    width: 200px;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 20px;
+}</code></pre>
+                </div>
+            </div>
+            <div class="qa-pair">
+                <div class="question" role="button" tabindex="0">
+                    <span>16. Describe any five types of operators in JavaScript.</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="answer hidden">
+                    <p>- <strong>Arithmetic:</strong> <code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>, <code>%</code>.</p>
+                    <p>- <strong>Assignment:</strong> <code>=</code>, <code>+=</code>.</p>
+                    <p>- <strong>Comparison:</strong> <code>==</code>, <code>!=</code>, <code>&gt;</code>.</p>
+                    <p>- <strong>Logical:</strong> <code>&amp;&amp;</code>, <code>||</code>, <code>!</code>.</p>
+                    <p>- <strong>Bitwise:</strong> <code>&amp;</code>, <code>|</code>.</p>
+                    <p><strong>Example:</strong> <code>let a = 10, b = 3; console.log(a + b); // 13</code></p>
+                </div>
+            </div>
+            <div class="qa-pair">
+                <div class="question" role="button" tabindex="0">
+                    <span>17. Describe the DOM Tree structure.</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="answer hidden">
+                    <p>The DOM Tree is a hierarchical structure:</p>
+                    <ul>
+                        <li><strong>Root:</strong> <code>&lt;html&gt;</code> element.</li>
+                        <li><strong>Children:</strong> <code>&lt;head&gt;</code>, <code>&lt;body&gt;</code>.</li>
+                        <li><strong>Descendants:</strong> <code>&lt;title&gt;</code>, <code>&lt;p&gt;</code>, etc.</li>
+                        <li><strong>Text Nodes:</strong> Content inside tags.</li>
+                    </ul>
+                    <p><strong>Example:</strong> <code>&lt;html&gt;&lt;body&gt;&lt;p&gt;Hello&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</code></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section C -->
+        <section class="qa-section" id="section-c">
+            <h2>Section C <span>(10 Marks Each)</span></h2>
+            <div class="qa-pair">
+                <div class="question" role="button" tabindex="0">
+                    <span>18. Discuss the different types of lists in HTML.</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="answer hidden">
+                    <p>- <strong>Unordered List (<code>&lt;ul&gt;</code>):</strong> Bullet points.</p>
+                    <pre><code>&lt;ul&gt;
+    &lt;li&gt;Apples&lt;/li&gt;
+    &lt;li&gt;Oranges&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+                    <p>- <strong>Ordered List (<code>&lt;ol&gt;</code>):</strong> Numbered items.</p>
+                    <pre><code>&lt;ol&gt;
+    &lt;li&gt;Step 1&lt;/li&gt;
+    &lt;li&gt;Step 2&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+                    <p>- <strong>Definition List (<code>&lt;dl&gt;</code>):</strong> Terms and definitions.</p>
+                    <pre><code>&lt;dl&gt;
+    &lt;dt&gt;HTML&lt;/dt&gt;
+    &lt;dd&gt;HyperText Markup Language&lt;/dd&gt;
+&lt;/dl&gt;</code></pre>
+                </div>
+            </div>
+            <div class="qa-pair">
+                <div class="question" role="button" tabindex="0">
+                    <span>19. a) Explain different types of style sheets in CSS.</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="answer hidden">
+                    <p>- <strong>Inline CSS:</strong> Inside an element, e.g., <code>&lt;p style="color: blue;"&gt;</code>.</p>
+                    <p>- <strong>Internal CSS:</strong> In <code>&lt;head&gt;</code> using <code>&lt;style&gt;</code>.</p>
+                    <p>- <strong>External CSS:</strong> In a <code>.css</code> file, linked via <code>&lt;link&gt;</code>.</p>
+                </div>
+            </div>
+            <div class="qa-pair">
+                <div class="question" role="button" tabindex="0">
+                    <span>19. b) Discuss any two looping statements in CSS.</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="answer hidden">
+                    <p>CSS does not support looping. Assuming JavaScript:</p>
+                    <p>- <strong>For Loop:</strong></p>
+                    <pre><code>for (let i = 1; i <= 3; i++) {
+    console.log("Count: " + i);
+}</code></pre>
+                    <p>- <strong>While Loop:</strong></p>
+                    <pre><code>let i = 1;
+while (i <= 3) {
+    console.log("Count: " + i);
+    i++;
+}</code></pre>
+                </div>
+            </div>
+            <div class="qa-pair">
+                <div class="question" role="button" tabindex="0">
+                    <span>20. a) Explain different ways to access Element in JavaScript.</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="answer hidden">
+                    <p>- <strong>By ID:</strong> <code>document.getElementById("myId")</code>.</p>
+                    <p>- <strong>By Class:</strong> <code>document.getElementsByClassName("myClass")</code>.</p>
+                    <p>- <strong>By Tag:</strong> <code>document.getElementsByTagName("p")</code>.</p>
+                    <p>- <strong>By Selector:</strong> <code>document.querySelector(".myClass")</code>.</p>
+                </div>
+            </div>
+            <div class="qa-pair">
+                <div class="question" role="button" tabindex="0">
+                    <span>20. b) Discuss the benefits of using JavaScript for creating dynamic documents.</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="answer hidden">
+                    <p>- Real-time updates via DOM.</p>
+                    <p>- Adds interactivity, e.g., form validation.</p>
+                    <p>- Handles events like clicks.</p>
+                    <p>- Supports asynchronous data fetching.</p>
+                    <p>- Cross-browser compatibility.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <footer >
+        <div class="container mx-auto px-4"
+                
+                <div class="flex space-x-4 mb-8">
+                    <a href="https://www.instagram.com/sudarshanbadli_7?igsh=azU0MDVibTB5bWFo" target="_blank" class="social-icon text-white hover:text-pink-500 text-xl">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://x.com/sudarshan_badli?t=4rxkwhdm80fYCRGuyv-nSg&s=09" target="_blank" class="social-icon text-white hover:text-blue-400 text-xl">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://github.com/Sudarshanbadli" target="_blank" class="social-icon text-white hover:text-gray-300 text-xl">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://codepen.io/Sudarshan-Badli" target="_blank" class="social-icon text-white hover:text-black text-xl">
+                        <i class="fab fa-codepen"></i>
+                    </a>
+                </div>
+                
+                <div class="text-center text-white-500 text-sm">
+                    <p>&copy; 2025 Sudarshan Badli. All rights reserved.</p>
+                    <p class="mt-2">Made with <i class="fas fa-heart text-red-500"></i> and <i class="fas fa-code text-white-500"></i></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
