@@ -4,7 +4,7 @@ A modern, responsive landing page for showcasing solved B.Sc. 6th Semester Compu
 
 ## 🚀 Live Demo
 
-👉 [2024web-tech-qp.netlify.app](#)  
+👉 [Click here to view the live page](2024web-tech-qp.netlify.app)  
 
 ---
 
